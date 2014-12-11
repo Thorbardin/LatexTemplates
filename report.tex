@@ -1,0 +1,30 @@
+\documentclass[a4paper, headsepline]{scrreprt}
+
+\pagestyle{headings}			% Shows current chapter at page heading
+
+\usepackage[utf8]{inputenc}		% Allows typing of umlaute (ä, ö, ü, ß)
+\usepackage[T1]{fontenc}		% Sets umlaute correct and not as a combination of two different characters
+\usepackage[ngerman]{babel}	% Translates LaTex intern words to german
+\usepackage{amsmath}			% Package for mathematical formulas
+\usepackage{icomma}			% Change decimal seperator to german dot
+\usepackage{graphicx}			% Package for including graphics
+\usepackage{booktabs}			% Package for better tables
+\usepackage[plain]{fancyref}		% Package for easy references
+\usepackage[locale=DE]{siunitx}	% Package for units
+
+% <++> Are placeholders and must properly be replaced by meaningful content :-)
+
+\begin{document}
+
+\title{<++>}					% Title
+\subtitle{<++>}					% Subtitle
+\author{<++>}					% Authors seperated by \and
+\publishers{<++>}				% Publisher
+\date{<++>}					% Set date. If commented out, LaTeX will use the build date
+
+\maketitle						% Creates the title page
+\tableofcontents					% Create table of contents
+
+% Place content here
+
+\end{document}
